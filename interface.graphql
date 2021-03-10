@@ -1,0 +1,22 @@
+interface Media {
+    id: Int!
+    title: String!
+}
+
+interface Series {
+    id: Int!
+    episodeCount: Int 
+    isRunning: Boolean
+}
+
+type Movie implements Media {
+    id: Int!
+    title: String!
+}
+
+type TVShow implements Media, Series {
+    id: Int!
+    title: String!
+    episodeCount: Int 
+    isRunning: Boolean
+}
