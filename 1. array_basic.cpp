@@ -2,16 +2,16 @@
 using namespace std;
 
 int main() {
+    int a[3] = {1, 2, 3};
     // int a[10] = {1, 2, 3};
 
-    // if we don't initilizze then it will have garbage values. 
-
-    int a[10] = {0};
-    for(int i = 0; i < 5; i++) {
-        cin >> a[i];
+    int b[10];
+    
+    for(int i = 0; i < 10; i++) {
+        cin >> b[i];
     }
     for(int i = 0; i < 10; i++) {
-        cout << a[i] << ", ";
+        cout << b[i] << ", ";
     }
     return 0;
 }
