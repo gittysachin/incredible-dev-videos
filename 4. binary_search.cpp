@@ -1,10 +1,8 @@
 int binary_search(int a[], int n, int key) {
-    int s= 0;
+    int s = 0;
     int e = n - 1;
-
     while(s <= e) {
         int mid = (s+e)/2;
-
         if(a[mid] == key) {
             return mid;
         }
