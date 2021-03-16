@@ -10,7 +10,6 @@ int main() {
     }
     cout<< "Enter the element you want to search : ";
     cin >> key;
-    // find out the index of the element by traversing the array 
     // Linear Search Algorithm
     for( i=0; i<= n-1; i++){
         if(a[i] == key) {
